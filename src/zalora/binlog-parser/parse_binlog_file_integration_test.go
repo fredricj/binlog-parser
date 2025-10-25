@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
-	"zalora/binlog-parser/parser"
+	"github.com/zalora/binlog-parser/parser"
 )
 
 func TestParseBinlogFile(t *testing.T) {

@@ -4,12 +4,12 @@ package conversion
 
 import (
 	"fmt"
-	"github.com/siddontang/go-mysql/replication"
+	"github.com/go-mysql-org/go-mysql/replication"
 	"reflect"
 	"testing"
 	"time"
-	"zalora/binlog-parser/database"
-	"zalora/binlog-parser/parser/messages"
+	"github.com/zalora/binlog-parser/database"
+	"github.com/zalora/binlog-parser/parser/messages"
 )
 
 func TestConvertQueryEventToMessage(t *testing.T) {

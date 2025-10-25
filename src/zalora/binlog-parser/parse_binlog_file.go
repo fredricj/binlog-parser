@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/golang/glog"
-	"zalora/binlog-parser/database"
-	"zalora/binlog-parser/parser"
+	"github.com/zalora/binlog-parser/database"
+	"github.com/zalora/binlog-parser/parser"
 )
 
 type binlogParseFunc func(string) error

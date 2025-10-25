@@ -2,10 +2,10 @@ package conversion
 
 import (
 	"github.com/golang/glog"
-	"github.com/siddontang/go-mysql/replication"
+	"github.com/go-mysql-org/go-mysql/replication"
 	"time"
-	"zalora/binlog-parser/database"
-	"zalora/binlog-parser/parser/messages"
+	"github.com/zalora/binlog-parser/database"
+	"github.com/zalora/binlog-parser/parser/messages"
 )
 
 type RowsEventData struct {
